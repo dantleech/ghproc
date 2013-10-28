@@ -26,6 +26,11 @@ class GhProc
     public function run()
     {
         $this->init();
+
+        $payload = $_POST['payload'];
+        $payload = json_decode($payload);
+        $this->log('REQUEST: '.json_encode($payload, JSON_PRETTY_PRINT));
+
         $this->shutdown();
     }
 
