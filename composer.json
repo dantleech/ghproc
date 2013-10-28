@@ -1,0 +1,15 @@
+{
+    "name": "dantleech/ghprocessor",
+    "description": "GitHub Processor",
+    "require": {
+    },
+    "authors": [
+        {
+            "name": "dantleech",
+            "email": "dan.t.leech@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}
